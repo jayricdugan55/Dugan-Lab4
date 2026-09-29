@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+.nav-left .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #92400e;
+  font-family: 'Times New Roman', serif;
+}
+
+.nav-right {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  font-family: 'Times New Roman', serif;
+}
+
+.nav-right a:hover {
+  color: #92400e;
+}
+
+.cart-icon {
+  background-color: #fef3c7;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+  color: #92400e;
+}
+

@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', serif;
+  background-color: #fffef9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.burgers-section {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.burgers-section h2 {
+  font-size: 2.5rem;
+  color: #92400e;
+  font-family: 'Times New Roman', serif;
+  margin-bottom: 1rem;
+}
+
+.burgers-section p {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #555;
+  font-family: 'Times New Roman', serif;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+
+ 

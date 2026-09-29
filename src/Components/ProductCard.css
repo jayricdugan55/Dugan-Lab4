@@ -1,0 +1,61 @@
+.product-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.product-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.product-info {
+  text-align: left;
+}
+
+.rating {
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+.product-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 0.3rem;
+  font-family: 'Times New Roman', serif;
+}
+
+.product-desc {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+  font-family: 'Times New Roman', serif;
+}
+
+.product-price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #b91c1c;
+  margin-bottom: 0.8rem;
+  font-family: 'Times New Roman', serif;
+}
+
+.add-btn {
+  background-color: #b91c1c;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Times New Roman', serif;
+}
+
+.add-btn:hover {
+  background-color: #991b1b;
+}
+
